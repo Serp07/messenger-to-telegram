@@ -1,4 +1,4 @@
-FROM node:alpine 
+FROM node:21.2-alpine3.18 
 # Bundle app source
 RUN mkdir -p /usr/src/app
 RUN mkdir -p /usr/src/app/node_modules
